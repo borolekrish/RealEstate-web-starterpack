@@ -1,8 +1,12 @@
+import Header from './components/Header.jsx'
 
-function App() {
+
+const App = () => {
   return (
-    <span>subscribe Zainkeepscode</span>
-  );
+    <div className='App'>
+       <Header />
+    </div>
+  )
 }
 
-export default App;
+export default App  
