@@ -6,3 +6,7 @@
 .c-container > img {
   width: 9rem;
 }
+
+.c-containers {
+  background-color: var(--black);
+}

@@ -2,6 +2,8 @@ import Header from './components/Header.jsx'
 import Hero from './components/Hero/Hero.jsx'
 import './App.css'
 import Companies from './components/Companies/Companies.jsx'
+import Residencies from './components/Residencies/Residencies.jsx'
+import Value from './components/Value/Value.jsx'
 
 const App = () => {
   return (
@@ -12,6 +14,8 @@ const App = () => {
         <Hero />
       </div>
       <Companies />
+      <Residencies />
+      <Value />
     </div>
   )
 }
