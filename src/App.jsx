@@ -5,6 +5,8 @@ import Companies from './components/Companies/Companies.jsx'
 import Residencies from './components/Residencies/Residencies.jsx'
 import Value from './components/Value/Value.jsx'
 import Contact from './components/Contact/Contact.jsx'
+import GetStarted from './components/GetStarted/GetStarted.jsx'
+import Footer from './components/Footer/Footer.jsx'
 
 const App = () => {
   return (
@@ -14,10 +16,14 @@ const App = () => {
         <Header />
         <Hero />
       </div>
-      <Companies />
-      <Residencies />
-      <Value />
-      <Contact />
+      <div className="app-color">
+        <Companies />
+        <Residencies />
+        <Value />
+        <Contact />
+        <GetStarted />
+        <Footer />
+      </div>
     </div>
   )
 }
