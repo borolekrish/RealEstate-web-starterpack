@@ -93,3 +93,12 @@
 .r-containers {
   background-color: var(--black);
 }
+
+@media (max-width: 800px) {
+  .r-head {
+    align-items: center;
+  }
+  .r-buttons {
+    position: initial;
+  }
+}
